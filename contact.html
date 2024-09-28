@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Portfolio - Bog'lanish</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <!-- ?Header section -->
+    <header class="main-header">
+        <div class="container">
+            <div class="main-header__brand">
+                <a href="Index.html">
+                    <img src="Korzinka/logo.png" alt="Logotip">
+                </a>
+            </div>
+            <nav class="main-navigation">
+                <ul class="main-navigation__items">
+                    <li class="main-navigation__item active">
+                        <a href="Index.html">Asosiy</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Men haqimda</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Xizmatlar</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Mijozlar</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Sheriklarim</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="contact.html">Bog'lanish</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header> 
+    <div class="clearfix"></div>
+    <!-- !Header section -->
+
+    <div class="container">
+        <section class="contact">
+            <div class="section-title">
+                Men bilan bog'laning
+            </div>
+            <form action="/server.php" method="GET">
+                <textarea rows="10" placeholder="Xabaringizni kiriting" name="message"></textarea>
+                <div class="half-row contact__firstname">
+                    <input type="text" placeholder="Ismingizni kiriting" name="firstname">
+                </div>
+                <div class="half-row contact__email">
+                    <input type="email" placeholder="Emailingizni kiriting" name="email">
+                </div>
+                <input type="text" placeholder="Xat mazmuni" name="subject">
+                <button class="button contact__send" type="submit">Xabar jo'natish</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- ?Footer section -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__brand">
+                <img src="Korzinka/logo.png" alt="Logo">
+            </div>
+            <nav class="footer__navigation">
+                <ul class="footer__navigation-items">
+                    <li class="footer__navigation-item">
+                        <a href="#">Asosiy</a>
+                    </li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Men haqimda</a>
+                    </li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Xizmatlarim</a>
+                    </li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Mijozlar</a>
+                    </li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Sheriklarim</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="footer__socials">
+                <li class="footer__social">
+                    <a href="#">
+                        <i class='bx bxl-telegram' ></i>
+                    </a>
+                </li>
+                <li class="footer__social">
+                    <a href="#">
+                        <i class='bx bxl-youtube' ></i>
+                    </a>
+                </li>
+                <li class="footer__social">
+                    <a href="#">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </li>
+                <li class="footer__social">
+                    <a href="#">
+                        <i class='bx bxl-ok-ru' ></i>
+                    </a>
+                </li>
+            </ul>
+            <p class="footer__text">
+                Copyright 02021 All rights  reserver | This template  is mode with  by ColorLib
+            </p>
+        </div>
+    </footer>
+
+    <!-- !Footer section -->
+
+    
+
+
+    <script src="JavaScript.js"></script>
+</body>
+</html>
